@@ -104,6 +104,18 @@ body{
     display: none;
 }
 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3eb73b;
+    cursor: pointer;
+    border: none;
+    margin-top: -1px; /* ajusta verticalmente */
+  }
+
 .Container-password:hover .tooltip{
     visibility: visible;
     bottom: 50px;
